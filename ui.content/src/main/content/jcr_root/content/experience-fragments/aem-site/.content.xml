@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:OrderedFolder"
+    cq:adobeTargetExportFormat="html"
+    cq:allowedTemplates="[/conf/aem-site/settings/wcm/templates/(?!page-).*]"
+    cq:conf="/conf/aem-site"
+    jcr:title="AEM Site Fragments"
+    sling:configRef="/conf/aem-site">
+    <language-masters/>
+    <us/>
+</jcr:root>
